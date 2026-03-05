@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;           /* make children align horizontally */
+    justify-content: space-between; /* logo left, menu right */
+    align-items: center;     /* vertically center items */
+    padding: 10px 20px;      /* some spacing */
+    background-color: #f5f5f5; /* optional, for visibility */
+}
+
+ul {
+    list-style: none;
+    display: flex;           /* horizontal list */
+    gap: 20px;               /* space between menu items */
+}
+
+ul li {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 24px;
+}
